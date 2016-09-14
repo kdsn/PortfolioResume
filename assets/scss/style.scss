@@ -1,4 +1,12 @@
 @import "_bootstrap.scss";
+
+/* Variabls
+-------------------------------------------------- */
+$primary-color:#3b5a76;
+$background-color:#ededed;
+$text-color:#363636 !important;
+$font:16px;
+
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
@@ -21,7 +29,24 @@ body {
 
 /* Custom page CSS
 -------------------------------------------------- */
+body{
+    font-family: 'Open Sans', Arial, Tahoma;
+    color: $text-color;
+    background: $background-color;
+    font-size: $font;
+}
+.primary, strong, h2 {
+    color:$primary-color;
+}
+.container-main {
+    background-color: #FFF;
+    margin-top: 125px;
+    padding: 0 30px 30px 30px;
+}
 .profile-img {
+    margin: auto;
+    margin-top: -100px;
+    width: 200px;
 }
 hr.line {
     border: 0;

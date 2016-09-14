@@ -5806,6 +5806,8 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
+/* Variabls
+-------------------------------------------------- */
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
@@ -5826,6 +5828,25 @@ body {
 
 /* Custom page CSS
 -------------------------------------------------- */
+body {
+  font-family: 'Open Sans', Arial, Tahoma;
+  color: #363636 !important;
+  background: #ededed;
+  font-size: 16px; }
+
+.primary, strong, h2 {
+  color: #3b5a76; }
+
+.container-main {
+  background-color: #FFF;
+  margin-top: 125px;
+  padding: 0 30px 30px 30px; }
+
+.profile-img {
+  margin: auto;
+  margin-top: -100px;
+  width: 200px; }
+
 hr.line {
   border: 0;
   height: 1px;
