@@ -5908,4 +5908,13 @@ table {
   color: #6c6c6c;
   font-weight: 700; }
 
+.top-space {
+  margin-top: 35px; }
+
+.right-padding {
+  padding-right: 15px; }
+
+.text-muted {
+  margin-top: 20px; }
+
 /*# sourceMappingURL=style.css.map */
